@@ -25,6 +25,8 @@ export default {
 
     function clearLocalStorage() {
       localStorage.clear();
+
+      state.value = "SET AFTER CLEARING";
     }
 
     return {
